@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  background-color: #282c34;
+  
+  color: white;
+  margin-top: 1%;
+}
+
+.ItemBoxContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+}
+
+.Container {
+  border: 1px solid grey;
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0;
+
+}
+
+.Container div {
+  width: 48%;
+}
+
+img {
+  
+  width: 90%;
+  padding-top: 40%;
+}
+
+.Details {
+  padding-top: 6%;
+}
+
+strong {
+  min-height: 50px;
+}
+
+.AddItem {
+  margin-right: 2%;
+}
+
+.AddItemForm {
+  display: none;
+  margin: 2% auto;
+  border: 3px solid whitesmoke;
+  width: 40%;
+  padding-bottom: 2%;
+}
+
+.Block {
+  display: block;
+}
+
+.EditItemForm {
+  display: none;
+  margin: 2% auto;
+  border: 3px solid whitesmoke;
+  width: 40%;
+  padding-bottom: 2%;
+}
+
+.permaHide {
+  display: none;
+}
+
+
+
