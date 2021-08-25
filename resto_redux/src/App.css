@@ -1,0 +1,232 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Merriweather+Sans:ital,wght@1,500&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Architects Daughter', cursive;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('./assets/images/background.jpg');
+  background-size: 1366px 768px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  background-position-y: -130px;
+  
+
+}
+header {
+  padding: 1%;
+  
+}
+
+header h1 {
+  font-size: 300%;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+header h6 {
+  font-size: 100%;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+button {
+  cursor:pointer;
+}
+
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.ShoppingWindow {
+  display: flex;
+  align-items: stretch;
+  
+}
+
+.ItemBoxContainer { 
+  margin: 1%;
+  width: 70%;
+  border-right: 1px solid whitesmoke;
+}
+
+.ItemBoxContainer h2 {
+  text-align: left;
+  display: inline;
+  margin-right: 3%;
+}
+
+.MenuHeader {
+  text-align: left;
+  margin-top: 2%;
+  margin-left: 2%;
+  display: flex;
+}
+
+.AppSelect {
+  height: 95%;
+  margin-top: 1%;
+  margin-right: 3%;
+}
+
+.MenuHeader button {
+  height: 95%;
+  margin-top: 1%;
+  margin-right: 3%;
+}
+
+
+.ItemBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.Container { 
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+.Container div {
+  width: 48%;
+}
+
+.Details {
+  padding-top: 6%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.Details div{
+  width: 100%;
+  text-align: center;
+  min-height: 50%;
+}
+
+
+.Container button {
+  min-width: 50%;
+  border-radius: 10px;
+  
+}
+
+.ImageFrame {
+  position: relative;
+/*   border-radius: 20px;
+  background: black;
+  
+   */
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+
+
+.Forms {
+  width: 30%;
+  margin: 1%;
+}
+
+.Forms table {
+  width: 100%;
+  font-size: 1.5vw;
+  margin: 0;
+}
+
+.AddItem {
+  margin-right: 2%;
+}
+
+.AddItemForm {
+  display: none;
+  margin: 2% auto;
+  border-top: 1px solid whitesmoke;
+ /*  width: 40%; */
+  padding: 2%;
+}
+
+.Inputs {
+  display: flex;
+  text-align: left;
+  margin-bottom: 3%;
+}
+
+.Inputs strong {
+  width: 35%
+}
+
+.Inputs input {
+  width: 65%;
+}
+
+.AddSelect {
+  width: 65%;
+}
+
+.Block {
+  display: block;
+}
+
+.EditItemForm {
+  display: none;
+  margin: 2% auto;
+  border-top: 1px solid whitesmoke;
+  padding-bottom: 2%;
+}
+
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.Quantity {
+  max-width: 120%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Quantity span  {
+  font-size: 2.5vh;
+  min-width: 30%;
+  
+}
+
+.Quantity button {
+  max-height: 22px;
+  min-width: 20%;
+}
+
+footer {
+  margin: 3%;
+  border-top: 1px solid whitesmoke;
+}
+
+.permaHide {
+  display: none;
+}
+
+
+
