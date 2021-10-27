@@ -2,7 +2,7 @@
     "items": [
         {
           "name": "Burger",
-          "price": 50,
+          "price": 55,
           "category": "Food",
           "description": "",
           "image": "https://image.flaticon.com/icons/svg/1046/1046784.svg"
