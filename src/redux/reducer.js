@@ -8,7 +8,7 @@ const initialState = {
             price: 5,
             category: "Foods",
             description: "",
-            image: "https://pbs.twimg.com/media/EdKC7C1VAAAV7eG?format=jpg&name=large"
+            image: "https://i0.wp.com/www.astigvegan.com/wp-content/uploads/2013/07/vegan-isaw-coiled-spiral-shape.jpg?w=960"
         },     
         {      
             id: uuidv4(),
